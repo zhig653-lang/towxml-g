@@ -31,11 +31,15 @@ const parse2 = require('./parse2/index'),
     // 精简数据，并初始化相关事件等
     initObj = (obj,option)=>{
         const result = {
-                theme:option.theme || 'light',
-                _e:{}
-            },
-            events = global._events = {},
-            base = option.base;
+			theme: option.theme || "light", //夜间模式或日间模式
+			fontSize: option.fontSize || "30rpx;", // 文字大小
+			margin: option.margin || "0rpx;", // 外边距
+			padding: option.padding || "0rpx;", // 内边距
+			backGround: option.theme === "dark" ? "" : (option.backGround || "#fff"), // 背景
+			_e:{}
+        },
+		events = global._events = {},
+		base = option.base;
 
         // 主题保存到全局
         global._theme = result.theme;

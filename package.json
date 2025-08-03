@@ -1,7 +1,7 @@
 {
-  "name": "towxml",
-  "version": "3.3.1",
-  "description": "HTML、Markdown转WXML(WeiXin Markup Language)渲染库",
+  "name": "towxml-g",
+  "version": "1.0.0",
+  "description": "HTML、Markdown转WXML(WeiXin Markup Language)渲染库，二次修复",
   "main": "./dist/index.js",
   "scripts": {
     "build": "node build",
@@ -18,7 +18,7 @@
     "mark2wxml",
     "wxml"
   ],
-  "author": "sbfkcel@163.com",
+  "author": "2515677459@qq.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sbfkcel/towxml/issues"

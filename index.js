@@ -1,8 +1,9 @@
 const md = require('./parse/markdown/index'),
     parse = require('./parse/index')
 
-module.exports = (str,type,option)=>{
+export const useTowxml = (str,type,option)=>{
     option = option || {};
+	type = type || "markdown";
     let result;
     switch (type) {
         case 'markdown':

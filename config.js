@@ -251,15 +251,15 @@ module.exports = {
         // 'contact-button'
     ],
 
-    // 自定义组件
+    // 不需要的在这里移除或者注释掉
     components:[
-        'audio-player',             // 音频组件，建议保留，由于小程序原生audio存在诸多问题，towxml解决了原生音频播放器的相关问题
-        'echarts',                  // echarts图表支持
-        'latex',                    // 数学公式支持
-        'table',                    // 表格支持
-        'todogroup',                // todo支持
-        'yuml',                     // yuml图表支持
-        'img'                       // 图片解析组件
+        'audio-player',// 音频组件，建议保留，由于小程序原生audio存在诸多问题，towxml解决了原生音频播放器的相关问题
+        'echarts', // echarts图表支持
+        'latex',// 数学公式支持
+        'table',// 表格支持
+        'todogroup',// todo支持
+        'yuml', // yuml图表支持
+        'img'// 图片解析组件
     ],
 
     // 保留原本的元素属性（建议不要变动）
